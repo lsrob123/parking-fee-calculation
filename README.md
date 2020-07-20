@@ -2,7 +2,7 @@
 
 ## The Problem
 
-Build an API to accept car entry and exit times and return parking fee to the caller application. 
+Build an API to accept car entry time and exit time as parameters, and return parking fee to the caller applications. 
 
 ##### Early Bird Rate
 - Flat Rate
@@ -54,7 +54,7 @@ For any other entry and exit times the program should refer the following table 
 Due to time restriction,
 
 - There is no authentication and authorisation. You can simply implement it using client credential flow with OAuth. 
-- Logging works with console logger only. You can add Serilog as abstraction layer for logging with a borad range of logging media and services.
+- Logging works with console logger only. However it is very easy to add something like Serilog as an abstraction layer for logging with a broad range of logging media and services.
 - No caching is included.
 - There is no consideration on timezone offset/difference, etc. All date times are assumed to be local.
 - No Swagger is added to the API.
